@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/34711e47a4.js" crossorigin="anonymous"></script>
+    <title>Catalog</title>
 </head>
 <body>
     <header>
@@ -14,12 +15,12 @@
                  <a class="logo" href="index.html">
                      <img src="./img/logo.png" alt="logo">
                  </a>
-                 <img src="./img/search.png" alt="search">
+                 <img src="./img/search.svg" alt="search">
              </div>
              <div class="header_menu">
-                 <div class="menu_items"><img src="./img/menu.png" alt="menu"></div>
-                 <div class="menu_items"><img src="./img/profile.png" alt="profile"></div>
-                 <div class="menu_items"><img src="./img/bucket.png" alt="bucket"></div>
+                 <div class="menu_items"><img src="./img/menu.svg" alt="menu"></div>
+                 <div class="menu_items"><img src="./img/profile.svg" alt="profile"></div>
+                 <div class="menu_items"><img src="./img/bucket.svg" alt="bucket"></div>
              </div>
          </div>
     </header>
@@ -39,6 +40,19 @@
         </div>
     </section>
 
+    <div class="filter">
+        <div class="container filter_wrap">
+            <div class="filter_filter">
+                <span class="fltr">FILTER<img src="./img/filter.svg" alt="" class="icon_margin"></span>
+            </div>
+            <div class="filter_item">
+                <span class="option_item">TRENDING NOW<img class="option_margin" src="./img/arrow_down.svg" alt="down"></span>
+                <span class="option_item">SIZE<img class="option_margin" src="./img/arrow_down.svg" alt="down"></span>
+                <span class="option_item">PRICE<img class="option_margin" src="./img/arrow_down.svg" alt="down"></span>
+            </div>
+        </div>
+    </div>
+
     <main>
         <div class="goods goods_margin">
             <div class="container goods_wrap">
@@ -47,7 +61,7 @@
                         <div class="card_img">
                             <img src="./img/1.jpg" alt="">
                             <div class="shadow">
-                                <button class="shadow_btn"><img src="./img/bucket.png" alt="Cart">Add to Cart</button>
+                                <button class="shadow_btn"><img src="./img/bucket.svg" alt="Cart">Add to Cart</button>
                             </div>
                         </div>
                         <div class="card_txt">
@@ -61,7 +75,7 @@
                         <div class="card_img">
                             <img src="./img/cat2.jpg" alt="">
                             <div class="shadow">
-                                <button class="shadow_btn"><img src="./img/bucket.png" alt="Cart">Add to Cart</button>
+                                <button class="shadow_btn"><img src="./img/bucket.svg" alt="Cart">Add to Cart</button>
                             </div>
                         </div>
                         <div class="card_txt">
@@ -75,7 +89,7 @@
                         <div class="card_img">
                             <img src="./img/3.jpg" alt="">
                             <div class="shadow">
-                                <button class="shadow_btn"><img src="./img/bucket.png" alt="Cart">Add to Cart</button>
+                                <button class="shadow_btn"><img src="./img/bucket.svg" alt="Cart">Add to Cart</button>
                             </div>
                         </div>
                         <div class="card_txt">
@@ -89,7 +103,7 @@
                         <div class="card_img">
                             <img src="./img/4.jpg" alt="">
                             <div class="shadow">
-                                <button class="shadow_btn"><img src="./img/bucket.png" alt="Cart">Add to Cart</button>
+                                <button class="shadow_btn"><img src="./img/bucket.svg" alt="Cart">Add to Cart</button>
                             </div>
                         </div>
                         <div class="card_txt">
@@ -103,7 +117,7 @@
                         <div class="card_img">
                             <img src="./img/cat5.jpg" alt="">
                             <div class="shadow">
-                                <button class="shadow_btn"><img src="./img/bucket.png" alt="Cart">Add to Cart</button>
+                                <button class="shadow_btn"><img src="./img/bucket.svg" alt="Cart">Add to Cart</button>
                             </div>
                         </div>
                         <div class="card_txt">
@@ -117,7 +131,7 @@
                         <div class="card_img">
                             <img src="./img/cat6.jpg" alt="">
                             <div class="shadow">
-                                <button class="shadow_btn"><img src="./img/bucket.png" alt="Cart">Add to Cart</button>
+                                <button class="shadow_btn"><img src="./img/bucket.svg" alt="Cart">Add to Cart</button>
                             </div>
                         </div>
                         <div class="card_txt">
@@ -131,7 +145,7 @@
                         <div class="card_img">
                             <img src="./img/cat7.jpg" alt="">
                             <div class="shadow">
-                                <button class="shadow_btn"><img src="./img/bucket.png" alt="Cart">Add to Cart</button>
+                                <button class="shadow_btn"><img src="./img/bucket.svg" alt="Cart">Add to Cart</button>
                             </div>
                         </div>
                         <div class="card_txt">
@@ -145,7 +159,7 @@
                         <div class="card_img">
                             <img src="./img/cat8.jpg" alt="">
                             <div class="shadow">
-                                <button class="shadow_btn"><img src="./img/bucket.png" alt="Cart">Add to Cart</button>
+                                <button class="shadow_btn"><img src="./img/bucket.svg" alt="Cart">Add to Cart</button>
                             </div>
                         </div>
                         <div class="card_txt">
@@ -159,7 +173,7 @@
                         <div class="card_img">
                             <img src="./img/cat9.jpg" alt="">
                             <div class="shadow">
-                                <button class="shadow_btn"><img src="./img/bucket.png" alt="Cart">Add to Cart</button>
+                                <button class="shadow_btn"><img src="./img/bucket.svg" alt="Cart">Add to Cart</button>
                             </div>
                         </div>
                         <div class="card_txt">
@@ -203,7 +217,7 @@
                     <span class="bld">SUBSCRIBE</span><p class="subscription_text">FOR OUR NEWLETTER AND PROMOTION</p>
                     <form method="POST" action="">
                         <div class="frm">
-                          <input placeholder="Enter Your Email" type="email">
+                          <input placeholder="Enter Your Email" type="email" required>
                           <button class="bottom_btn">Subscribe</button>
                         </div>
                     </form>
@@ -218,10 +232,10 @@
                 <p class="rights">© 2021  Brand  All Rights Reserved.</p>
             </div>
             <div class="social">
-                <div class="social_items"><img src="./img/fb_icon.svg" alt="Facebook"></div>
-                <div class="social_items"><img src="./img/ig_icon.svg" alt="Instagram"></div>
-                <div class="social_items"><img src="./img/pin_icon.svg" alt="Pinterest"></div>
-                <div class="social_items"><img src="./img/twit_icon.svg" alt="Twitter"></div>
+                <div class="social_items"><i class="fab fa-facebook-f"></i></div>
+                <div class="social_items"><i class="fab fa-instagram"></i></div>
+                <div class="social_items"><i class="fab fa-pinterest-p"></i></div>
+                <div class="social_items"><i class="fab fa-twitter"></i></div>
             </div>
         </div>
     </footer>
