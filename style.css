@@ -444,6 +444,7 @@ details {
     outline: none;
     border: none;
     fill: #000;
+    z-index: 1;
 }
 
 .fltr {
