@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.min.css">
     <script src="https://kit.fontawesome.com/34711e47a4.js" crossorigin="anonymous"></script>
     <title>Main</title>
 </head>
@@ -21,7 +23,7 @@
             <div class="header_menu">
                 <div class="menu_items"><img src="./img/menu.svg" alt="menu"></div>
                 <div class="menu_items"><img src="./img/profile.svg" alt="profile"></div>
-                <div class="menu_items"><img src="./img/bucket.svg" alt="bucket"></div>
+                <div class="menu_items"><a href="cart.html"><img src="./img/bucket.svg" alt="bucket"></a></div>
             </div>
         </div>
    </header>
@@ -154,7 +156,7 @@
                 </div>
  
                 <div class="btn">
-                    <a href="#" class="button">Browse All Product</a>
+                    <a href="catalog.html" class="button">Browse All Product</a>
                 </div>
             </div>
         </div>
@@ -190,7 +192,7 @@
                     <span class="bld">SUBSCRIBE</span><p class="subscription_text">FOR OUR NEWLETTER AND PROMOTION</p>
                     <form method="POST" action="">
                         <div class="frm">
-                          <input placeholder="Enter Your Email" type="email" required>
+                          <input class="input_email" placeholder="Enter Your Email" type="email" required>
                           <button class="bottom_btn">Subscribe</button>
                         </div>
                     </form>
