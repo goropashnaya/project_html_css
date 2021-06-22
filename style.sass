@@ -130,6 +130,7 @@ header
   background-color: #F8F8F8
   margin-bottom: 30px
   position: relative
+  transition: 2s
 
 .shadow_btn
   display: flex
@@ -146,6 +147,8 @@ header
 
 .item_card:hover
   box-shadow: rgba(58, 56, 56, 0.86)
+  transform: scale(1.2)
+  z-index: 1
 
 .shadow
   position: absolute
@@ -201,10 +204,12 @@ header
   padding: 15px 49px
   background: #FFFFFF
   border: 2px solid #F26376
+  transition: 3s
 
   &:hover
     background: #F26376
     color: #FFFFFF
+    transform: rotateY(360deg) scale(1)
 
 .features
   display: flex
@@ -261,6 +266,9 @@ header
   line-height: 24px
   text-align: center
   color: #222224
+
+.text--italic
+  font-style: italic
 
 .subscribe
   width: 557px
@@ -742,4 +750,79 @@ input[type="number"]::-webkit-inner-spin-button
     text-align: center
     margin-top: 17px
 
+.registration_wrap
+  display: flex
+  justify-content: space-between
 
+.registration_form 
+  margin: 64px 128px 96px 0
+
+.registration_frm
+  display: flex
+  flex-direction: column
+  width: 360px
+
+fieldset 
+  width: 360px
+  border: none
+
+.radio
+  margin: 31px 0 33px
+
+.radio_title
+  font-size: 11px
+  font-weight: 300
+  color: #000000
+  margin: 0 20px 0 10px
+
+.login_text
+  width: 359px
+  font-size: 13px
+  font-weight: 300
+  line-height: 15,6px
+  color: #B1B1B1
+  margin-top: 15px
+
+.login_button
+  display: flex
+  justify-content: space-between
+  align-items: center
+  width: 167px
+  height: 50px
+  padding: 16px 29px
+  margin-top: 39px
+  border: none
+  background-color: #F16D7F
+  font-size: 14px
+  font-weight: 400
+  color: #FFFFFF
+  fill: #FFFFFF
+
+.registration_details
+  margin: 64px 0 277px
+
+.details_title
+  font-size: 24px
+  font-weight: 300
+  color: #000000
+  margin-bottom: 22px
+
+.details_text
+  font-size: 24px
+  font-weight: 300
+  line-height: 29px
+  color: #000000
+  margin-bottom: 21px
+
+.details_list
+ list-style: none
+
+.details_list_item 
+  font-size: 24px
+  font-weight: 300
+  color: #000000
+  &:not(:last-child)
+    margin-bottom: 16px
+
+.style
+  margin-right: 22px
