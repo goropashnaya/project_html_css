@@ -13,18 +13,53 @@
 <body>
     <header>
         <div class="container header_wrap">
-             <div class="header_logo">
-                 <a class="logo" href="index.html">
-                     <img src="./img/logo.png" alt="logo">
-                 </a>
-                 <img src="./img/search.svg" alt="search">
-             </div>
-             <div class="header_menu">
-                 <div class="menu_items"><img src="./img/menu.svg" alt="menu"></div>
+            <div class="header_logo">
+                <a class="logo" href="index.html">
+                    <img src="./img/logo.png" alt="logo">
+                </a>
+                <img src="./img/search.svg" alt="search">
+            </div>
+
+            <div class="header_menu">
+                <div class="menu_items">
+                    <input type="checkbox" id="burger">
+                    <label for="burger" class="burger_btn_open"><img src="img/menu.svg" alt="menu"></label>
+                    
+                    <nav class="menu_nav nav">
+                        <div class="nav_wrap">
+                            <label for="burger" class="burger_btn_close"><img src="img/close.svg" alt="close"></label>
+                            <h2 class="burger_menu_title">MENU</h2>
+                            <h3 class="burger_menu_subtitle">MAN</h3>
+                                <ul class="burger_list">
+                                    <li class="burger_item"><a href="#" class="burger_link">Accessories</a></li>
+                                    <li class="burger_item"><a href="#" class="burger_link">Bags</a></li>
+                                    <li class="burger_item"><a href="#" class="burger_link">Denim</a></li>
+                                    <li class="burger_item"><a href="#" class="burger_link">T-Shirts</a></li>
+                                </ul>
+                            <h3 class="burger_menu_subtitle">WOMAN</h3>
+                                <ul class="burger_list">
+                                    <li class="burger_item"><a href="" class="burger_link">Accessories</a></li>
+                                    <li class="burger_item"><a href="" class="burger_link">Jackets & Coats</a></li>
+                                    <li class="burger_item"><a href="" class="burger_link">Polos</a></li>
+                                    <li class="burger_item"><a href="" class="burger_link">T-Shirts</a></li>
+                                    <li class="burger_item"><a href="" class="burger_link">Shirts</a></li>
+                                </ul>
+                            <h3 class="burger_menu_subtitle">KIDS</h3>
+                                <ul class="burger_list">
+                                    <li class="burger_item"><a href="" class="burger_link">Accessories</a></li>
+                                    <li class="burger_item"><a href="" class="burger_link">Jackets & Coats</a></li>
+                                    <li class="burger_item"><a href="" class="burger_link">Polos</a></li>
+                                    <li class="burger_item"><a href="" class="burger_link">T-Shirts</a></li>
+                                    <li class="burger_item"><a href="" class="burger_link">Shirts</a></li>
+                                    <li class="burger_item"><a href="#" class="burger_link">Bags</a></li>
+                                </ul>
+                        </div>
+                    </nav>
+                </div>
                  <div class="menu_items hidden_item"><a href="registration.html"><img src="./img/profile.svg" alt="profile"></a></div>
                  <div class="menu_items hidden_item"><a href="cart.html"><img src="./img/bucket.svg" alt="bucket"></a></div>
-             </div>
-         </div>
+            </div>
+        </div>
     </header>
 
     <section class="arrivals">
