@@ -21,7 +21,7 @@
              </div>
              <div class="header_menu">
                  <div class="menu_items"><img src="./img/menu.svg" alt="menu"></div>
-                 <div class="menu_items"><img src="./img/profile.svg" alt="profile"></div>
+                 <div class="menu_items"><a href="registration.html"><img src="./img/profile.svg" alt="profile"></a></div>
                  <div class="menu_items"><a href="cart.html"><img src="./img/bucket.svg" alt="bucket"></a></div>
              </div>
          </div>
@@ -30,7 +30,7 @@
     <section class="arrivals">
         <div class="container arrivals_wrap">
             <div class="ttl">
-                <span class="subtitle">NEW ARRIVALS</span>
+                <h2 class="subtitle">NEW ARRIVALS</h2>
             </div>
             <div class="topics">
                 <a href="#" class="link_topics">HOME</a>
@@ -51,7 +51,7 @@
                 </summary>
     
                 <div class="filter_content">
-                    <details>
+                    <details class="categories">
                         <summary class="filter_title">CATEGORY</summary>
                             <ul class="filter_list">
                                 <li class="list_item"><a href="#" class="item_link">Accessories</a></li>
@@ -78,7 +78,17 @@
     
             <div class="filter_item">
                 <span class="option_item">TRENDING NOW<img class="option_margin" src="./img/arrow_down.svg" alt="down"></span>
-                <span class="option_item">SIZE<img class="option_margin" src="./img/arrow_down.svg" alt="down"></span>
+                <details class="size">
+                    <summary class="option_item">SIZE<img class="option_margin" src="./img/arrow_down.svg" alt="down"></summary>
+                    <div class="size_content">
+                      <ul class="size_list">
+                          <li><input type="checkbox"><span class="checkout_name">XS</span></li>
+                          <li><input type="checkbox"><span class="checkout_name">S</span></li>
+                          <li><input type="checkbox"><span class="checkout_name">M</span></li>
+                          <li><input type="checkbox"><span class="checkout_name">L</span></li>
+                      </ul>
+                    </div>
+                </details>
                 <span class="option_item">PRICE<img class="option_margin" src="./img/arrow_down.svg" alt="down"></span>
             </div>
         </div>
@@ -217,6 +227,19 @@
             </div>
         </div>
 
+        <div class="pagination">
+            <a href="#"><img src="img/pag_left.svg" alt=""></a> 
+            <a class="pag_link" href="#">1</a>
+            <a class="pag_link" href="#">2</a>
+            <a class="pag_link" href="#">3</a>
+            <a class="pag_link" href="#">4</a>
+            <a class="pag_link" href="#">5</a>
+            <a class="pag_link" href="#">6</a>
+            <a class="pag_link" href="#">.....</a>
+            <a class="pag_link" href="#">20</a>
+            <a href="#"><img src="img/pag_right.svg" alt=""></a>
+        </div>
+
         <div class="features">
             <div class="container features_wrap">
                 <div class="features_box">
@@ -246,7 +269,7 @@
 
                 <div class="subscribe">
                     <span class="bld">SUBSCRIBE</span><p class="subscription_text">FOR OUR NEWLETTER AND PROMOTION</p>
-                    <form method="POST" action="">
+                    <form method="POST" action="#">
                         <div class="frm">
                           <input class="input_email" placeholder="Enter Your Email" type="email" required>
                           <button class="bottom_btn">Subscribe</button>
