@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.min.css">
+    <script src="https://kit.fontawesome.com/34711e47a4.js" crossorigin="anonymous"></script>
+    <title>Cart</title>
+</head>
+<body>
+    <header>
+        <div class="container header_wrap">
+             <div class="header_logo">
+                 <a class="logo" href="index.html">
+                     <img src="./img/logo.png" alt="logo">
+                 </a>
+                 <img src="./img/search.svg" alt="search">
+             </div>
+             <div class="header_menu">
+                 <div class="menu_items"><img src="./img/menu.svg" alt="menu"></div>
+                 <div class="menu_items"><img src="./img/profile.svg" alt="profile"></div>
+                 <div class="menu_items"><a href="cart.html"><img src="./img/bucket.svg" alt="bucket"></a></div>
+             </div>
+         </div>
+    </header>
+
+    <section class="arrivals">
+        <div class="container arrivals_wrap">
+            <div class="ttl">
+                <span class="subtitle">SHOPPING CART</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="cart">
+        <div class="container cart_wrap">
+            <div class="cart_cards">
+                <div class="product_card">
+                    <div class="cart_img">
+                        <img src="img/cart1.jpg" alt="">
+                    </div>
+                    <div class="cart_text">
+                        <h3 class="cart_title">MANGO  PEOPLE  T-SHIRT</h3>
+                        <ul>
+                            <li class="category">Price: <span class="category_price">$300</span></li>
+                            <li class="category">Color: <span class="category_opt">Red</span></li>
+                            <li class="category">Size: <span class="category_opt">XL</span></li>
+                            <li class="category">Quantity: <input type="number" class="cart_quantity" placeholder="2"></li> 
+                        </ul>
+                    </div>
+                    <button class="cart_button"><i class="fas fa-times"></i></button>
+                </div>
+
+                <div class="product_card">
+                    <div class="cart_img">
+                        <img src="img/cart2.jpg" alt="">
+                    </div>
+                    <div class="cart_text">
+                        <h3 class="cart_title">MANGO  PEOPLE  T-SHIRT</h3>
+                        <ul>
+                            <li class="category">Price: <span class="category_price">$300</span></li>
+                            <li class="category">Color: <span class="category_opt">Red</span></li>
+                            <li class="category">Size: <span class="category_opt">XL</span></li>
+                            <li class="category">Quantity: <input type="number" class="cart_quantity" placeholder="2"></li> 
+                        </ul>
+                    </div>
+                    <button class="cart_button"><i class="fas fa-times"></i></button>
+                </div>
+
+                <div class="bucket_buttons">
+                    <button class="bucket_btn">CLEAR SHOPPING CART</button>
+                    <button class="bucket_btn">CONTINUE SHOPPING</button>
+                </div>
+            </div>
+
+            <div class="checkout">
+
+                <div class="checkout_frm">
+                    <h3 class="checkout_title">SHIPPING ADDRESS</h3>
+                    <form action="#">
+                        <input type="text" class="checkout_form" placeholder="Bangladesh">
+                        <input type="text" class="checkout_form" placeholder="State">
+                        <input type="number" class="checkout_form" placeholder="Postcode / Zip">
+                    </form>
+                    <button class="checkout_button">GET A QUOTE</button>
+                </div>
+
+                <div class="total">
+                    <span class="sub_total">SUB TOTAL<span class="sub_total_price">$900</span></span>
+                    <span class="grand_total">GRAND TOTAL<span class="total--pink">$900</span></span>
+                    <span class="checkout_devider"></span>
+                    <button class="proceed_button">PROCEED TO CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="review">
+        <div class="container review_wrap">
+            <div class="review_content">
+                <img src="./img/user.png" alt="user">
+                <p class="text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+            </div>
+
+            <div class="subscribe">
+                <span class="bld">SUBSCRIBE</span><p class="subscription_text">FOR OUR NEWLETTER AND PROMOTION</p>
+                <form method="POST" action="">
+                    <div class="frm">
+                      <input class="input_email" placeholder="Enter Your Email" type="email" required>
+                      <button class="bottom_btn">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bottom">
+        <div class="container bottom_wrap">
+            <div class="copyright">
+                <p class="rights">© 2021  Brand  All Rights Reserved.</p>
+            </div>
+            <div class="social">
+                <div class="social_items"><i class="fab fa-facebook-f"></i></div>
+                <div class="social_items"><i class="fab fa-instagram"></i></div>
+                <div class="social_items"><i class="fab fa-pinterest-p"></i></div>
+                <div class="social_items"><i class="fab fa-twitter"></i></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
